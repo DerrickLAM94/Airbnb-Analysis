@@ -37,6 +37,8 @@ http://insideairbnb.com/get-the-data/ - This page on Inside Airbnb allows downlo
 
 Let me know if you have any other questions! Contributions to analyze additional aspects are welcome.
 
+## --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Sentiment Analysis
 <img width="875" alt="情感分析" src="https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/0f08b767-5cd8-462c-b13f-33476b3dd7e8">
 
