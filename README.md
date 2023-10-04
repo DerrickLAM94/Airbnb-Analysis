@@ -30,6 +30,11 @@ The notebooks require Python 3 and the following libraries:
 - NLTK (for sentiment analysis)
 - WordCloud
 
+## Data Sources
+The data used for this analysis comes from:
+insideairbnb.com - This site scrapes listing data directly from Airbnb and provides it in bulk for analysis. Data includes listings, calendar availability and reviews. New data is added quarterly.
+http://insideairbnb.com/get-the-data/ - This page on Inside Airbnb allows downloading the raw data files for HongKong.
+
 Let me know if you have any other questions! Contributions to analyze additional aspects are welcome.
 
 ## Sentiment Analysis
