@@ -65,4 +65,20 @@ From this, we can see:
 
 - Airbnb may be able to advise hosts based on these findings to pay more attention to housing quality and practicality, especially space configuration, in order to improve service quality and customer experience.
 
+## CORRELATION ANALYSIS
+
+Correlation analysis: The corr() method in pandas can be used to calculate the Pearson correlation coefficient (-1 to 1) between each pair of variables. Positive correlation means that as one variable increases, so does the other; negative correlation means that as one variable increases, the other decreases. Correlation close to 0 indicates almost no linear relationship between the two variables.
+<img width="849" alt="螢幕截圖 2023-10-27 下午2 06 56" src="https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/04c2618f-f28b-41ff-aeeb-c0fa9921619d">
+<img width="318" alt="螢幕截圖 2023-10-27 下午2 09 54" src="https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/81b9a5a6-8e63-42ed-a49b-4eeb3adbb495">
+
+- The correlations of id and host_id with price are close to 0, indicating almost no linear relationship between these variables and price.
+
+- The correlation of latitude with price is 0.018431, which is a very small positive value, so we can say the relationship between latitude - and price is extremely weak, but there is a slight tendency for price to increase as latitude increases.
+
+- The correlation of longitude with price is -0.064905, which is a small negative value, indicating a slight tendency for price to decrease as longitude increases, but this relationship is still very weak.
+
+- The correlations of minimum_nights, reviews_per_month, calculated_host_listings_count and availability_365 with price are all negative, indicating a slight tendency for price to decrease as these variables increase. Among these variables, 
+  calculated_host_listings_count has the strongest correlation with price (-0.141563), but it is still relatively weak.  
+
+- The correlations of number_of_reviews and number_of_reviews_ltm with price are close to 0, indicating almost no linear relationship between these variables and price.
 
