@@ -82,8 +82,18 @@ Correlation analysis: The corr() method in pandas can be used to calculate the P
 
 - The correlations of number_of_reviews and number_of_reviews_ltm with price are close to 0, indicating almost no linear relationship between these variables and price.
 
-##HeatMap
+## HeatMap
+
 I want to understand which areas have more popular listings (e.g. more reviews)
 ![螢幕截圖 2023-10-27 下午3 04 57](https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/f0b848bd-74d5-4e5d-8268-7f67d08609be)
+
+- The results reflect that guests staying in Hong Kong are concentrated in Kowloon and the New Territories, which makes sense. The main tourist areas in Hong Kong are located in those regions.
+
+- The heatmap shows more intense clusters of highly reviewed listings in areas like Tsim Sha Tsui, Mong Kok, and Lantau Island. This indicates that popular tourist destinations like Tsim Sha Tsui in Kowloon and Lantau Island, home to attractions like   the Big Buddha, have more popular and highly reviewed Airbnb listings. 
+
+- The Hong Kong Island area shows fewer clusters, likely because there are fewer tourist attractions. The urban density of Hong Kong Island also means there are fewer available Airbnb listings compared to more suburban areas. 
+
+- So in summary, the geographic distribution of popular and highly reviewed listings on the heatmap aligns with the layout of Hong Kong's major tourist regions, with heavy concentrations in Kowloon and the New Territories near the most visited     
+  attractions. This reflects where most guests are traveling within Hong Kong.
 
 
