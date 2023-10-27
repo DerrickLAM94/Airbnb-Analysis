@@ -82,3 +82,8 @@ Correlation analysis: The corr() method in pandas can be used to calculate the P
 
 - The correlations of number_of_reviews and number_of_reviews_ltm with price are close to 0, indicating almost no linear relationship between these variables and price.
 
+##HeatMap
+I want to understand which areas have more popular listings (e.g. more reviews)
+![螢幕截圖 2023-10-27 下午3 04 57](https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/f0b848bd-74d5-4e5d-8268-7f67d08609be)
+
+
