@@ -38,6 +38,13 @@ http://insideairbnb.com/get-the-data/ - This page on Inside Airbnb allows downlo
 Let me know if you have any other questions! Contributions to analyze additional aspects are welcome.
 
 ## --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Processing The Data
+
+<img width="913" alt="螢幕截圖 2023-10-30 下午2 00 21" src="https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/ed39f11c-6093-429a-a815-3e164478b30f">
+- Drops the column reviews_per_month from the Data dataframe, and assigns the resulting dataframe to Data2. The drop() function removes specified labels from rows or columns.
+- Fills any missing values in the Review dataframe with 0 using the fillna() function. The inplace=True argument means that the changes are made directly in the Review dataframe, without creating a new dataframe.
+- Checks for duplicated rows in the Data2 dataframe using the duplicated().sum() function. This returns the total number of duplicated rows.
+
 
 ## Sentiment Analysis
 <img width="875" alt="情感分析" src="https://github.com/DerrickLAM94/Airbnb-Analysis/assets/140989898/0f08b767-5cd8-462c-b13f-33476b3dd7e8">
